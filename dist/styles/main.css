@@ -1,0 +1,368 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../images/woodTexture.jpg");
+}
+
+.navbar{
+	/* font-family: "Josefin Slab"; */
+	font-size: 20px;
+	background-color: rgb(19, 19, 19);
+	color: white;
+	opacity: .75;
+}
+
+.navbar-nav{
+	margin: 0px auto;
+	color: white;
+}
+
+.nav-item{
+	margin-left: 30px;
+	color: white;
+}
+
+.nav-link{
+	color: white;
+}
+
+.nav-link:hover{
+	color: rgb(206, 206, 206);
+}
+
+.navbar-brand{
+	font-size: 40px;
+	color: white;
+}
+
+.navbar-brand:hover{
+	color: rgb(206, 206, 206);
+}
+
+.navbar-toggler:hover{
+	opacity: .5;
+}
+
+#header{
+	/* font-family: "Josefin Slab"; */
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#homepageQuote{
+	/* background-color: #343a40; */
+	color: white;
+	height: 100%;
+	margin: 0px auto;
+	padding: 20px;
+	/* font-family: "Josefin Slab"; */
+	font-size: 18px;
+	text-align: center;
+}
+
+#homepageQuote2{
+	/* background-color: #343a40; */
+	color: white;
+	height: 100%;
+	margin: 20px 20px;
+	padding: 20px;
+	/* font-family: "Josefin Slab"; */
+	font-weight: medium;
+	font-size: 45px;
+	text-align: center;
+}
+
+#projectsTitle{
+	/* font-family: "Josefin Slab"; */
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	margin-top: 20px;
+	/* background-color: #343a40; */
+}
+
+.projectCarousel{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#aboutStuff{
+	/* font-family: "Josefin Slab"; */
+	font-size: 28px;
+	/* font-weight: bold; */
+	width: 900px;
+	background-color: rgba(19, 19, 19, .75);
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#aboutPic{
+	background-image: url("../images/owner.jpg");
+	background-repeat: no-repeat;
+	height: 300px;
+	margin-left: 30px;
+	text-align: center;
+}
+
+#aboutPicWords{
+	font-family: 'Snell Roundhand';
+	font-size: 45px;
+	text-align: center;
+	margin-top: 80px;
+	/* margin-left: 50px; */
+}
+
+#aboutP1{
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+#aboutP2{
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+#aboutP3{
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.carousel-control-prev{
+	margin-left: -100px;
+	/* width: 50px; */
+}
+
+.carousel-control-next{
+	margin-right: -100px;
+	/* width: 50px;	 */
+}
+
+.carousel-control-next-icon{
+	height: 50px;
+	width: 50px;
+	font-size: 70px;
+}
+
+.carousel-control-prev-icon{
+	height: 50px;
+	width: 50px;
+	font-size: 70px;
+}
+
+#servicesStuff{
+	margin-top: 100px;
+}
+
+.servicesList{
+	/* background-color: rgba(19, 19, 19, .75); */
+	list-style-type: none;
+	margin: 0px auto;
+	color: white;
+}
+
+#servicesStuff2{
+	/* font-family: "Josefin Slab"; */
+	font-size: 18px;
+	color: white;
+	padding: 20px;
+	background-color: rgba(19, 19, 19, .75);
+	margin-bottom: 100px;
+}
+
+#DS{
+	/* font-weight: bold; */
+	text-decoration: underline;
+}
+
+.listWords{
+	position: relative;
+	top: 5px;
+}
+
+.listWords2{
+	position: relative;
+	top: 12px;
+}
+
+
+#plan{
+	/* background-color: rgb(206, 204, 204); */
+	width: 50px;
+	height: 50px;
+}
+
+#wrench{
+	/* background-color: rgb(206, 204, 204); */
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+#paint{
+	/* background-color: rgb(206, 204, 204); */
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#bed{
+	/* background-color: rgb(206, 204, 204); */
+	width: 50px;
+	height: 50px;
+}
+
+#cabinet{
+	/* background-color: rgb(206, 204, 204); */
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+#chandelier{
+	/* background-color: rgb(206, 204, 204); */
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#servicesPic1{
+	background-image: url("../images/ID8.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 400px;
+	margin: 0px auto;
+	/* margin-left: 20px; */
+}
+
+#servicesPic2{
+	background-image: url("../images/ID4.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 400px;
+	margin: 0px auto;
+	/* margin-left: 20px; */
+}
+
+#servicesPic3{
+	background-image: url("../images/ID21.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 400px;
+	margin: 0px auto;
+	/* margin-left: 20px; */
+}
+
+#contactStuff{
+	/* font-family: "Josefin Slab"; */
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+	padding: 20px;
+	background-color: rgba(19, 19, 19, .75);
+	margin-top: 100px;
+}
+
+#signup{
+	text-align: center;
+	/* font-family: "Josefin Slab"; */
+	color: white;
+	font-weight: bold;
+}
+
+form{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+
+.invalid-feedback{
+	color: blue;
+}
+
+#success{
+	text-align: center;
+/*	font-family: "Arial Rounded Mt Bold";*/
+	color: yellow;
+}
+
+#sexForm{
+	text-align: left;
+}
+
+#typeForm{
+	text-align: left;
+}
+
+/* #inputMessage{
+	width: 200px;
+} */
+
+#classForm{
+	text-align: left;
+}
+
+
+#submitBtn{
+	background-color: black;
+	color: white;
+	height: 50px;
+	margin-top: 25px;
+	/* margin-left: 30px; */
+}
+
+#emailPic{
+	height: 30px;
+	width: 30px;
+}
+
+#phonePic{
+	height: 25px;
+	width: 25px;
+}
+
+#instaPic{
+	height: 25px;
+	width: 25px;
+}
+
+#confirmation{
+	text-align: center;
+	/* font-family: "Josefin Slab"; */
+	color: white;
+	font-weight: bold;
+}
+
+#confirmed{
+	text-align: center;
+	/* font-family: "Josefin Slab"; */
+	color: white;
+	font-weight: bold;
+	height: 100vh;
+}
+
+
+
+
+
+
+
+/*@media screen and (max-width: 955px){
+	
+}*/
+
+
+
+
+/*-webkit-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	transition-duration: .5s;*/
+
